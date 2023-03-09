@@ -1,0 +1,279 @@
+
+/*X-MALL*/
+@media screen and (min-width:320px) {
+    /*NAVBAR*/
+    .navbar{
+        display: initial;
+    }
+    /*HEADER*/
+    .header__navbar{
+        justify-content: space-between;
+        gap: 7rem;
+        padding: 1rem 2rem;
+    }
+    .header__navbar--list{
+        display: none;
+    }
+    .header__contact--mail{
+        display: none;
+    }
+    #header__navbar--btn_list{
+        display: inherit;
+    }
+    #header__navbar--btn_src{
+        display: none;
+    }
+    /*1.CONTAİNER*/
+    .container--first{
+        height: 5vh;
+     }
+    /*2.CONTAİNER*/
+    .container--about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .container--about img{
+        width: 60vh;
+        height: 40vh;
+       }
+    /*3.CONTAİNER*/
+    .container--selector{
+        height: 70vh;
+    }
+    .container--selector-list{
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+    .container--selector-list-element{
+        padding: 2vh 10vh;
+    }
+    /*4.CONTAİNER*/
+    .container--callme{
+        height: 400vh;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .main__container-element{
+        height: 60vh;
+        width: 45vh;
+        
+    }
+    .main__container-element img{
+        height: 40vh;
+        margin-top: 0;
+      }
+    /*5.CONTAİNER*/
+    .container--last{
+        height: 100vh;
+    }
+    /*FORM*/
+
+    input[type=text], select{
+        width: 30vh;
+    }
+    /*FOOTER*/
+    .footer{
+        height: 42vh;
+    }
+    .footer--display{
+        display: none;
+    }
+}
+/*SMALL*/
+
+@media screen and (min-width: 576px){
+    /*HEADER*/
+    .header__navbar{
+        justify-content:space-around;
+        gap: initial;
+        padding: 1rem 4rem;
+    }
+    .header__navbar--list{
+        display: none;
+    }
+    .header__contact--mail{
+        display: inline;
+    }
+    /*1.CONTAİNER*/
+    .container--first{
+        height: 30vh;
+     }
+    /*2.CONTAİNER*/
+    .container--about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .container--about img{
+        width: 80vh;
+        height: 80vh;
+       }
+    /*3.CONTAİNER*/
+    .container--selector{
+        height: 70vh;
+    }
+    .container--selector-list{
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+    .container--selector-list-element{
+        padding: 5vh 20vh;
+    }
+    /*4.CONTAİNER*/
+    .container--callme{
+        height: 500vh;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .main__container-element{
+        height: 60vh;
+        width: 40vh;
+        
+    }
+    .main__container-element img{
+        height: 30vh;
+        margin-top: 0;
+      }
+    /*5.CONTAİNER*/
+    .container--last{
+        height: 100vh;
+    }
+    /*FORM*/
+    input[type=text], select{
+        width: 40vh;
+    }
+    /*FOOTER*/
+    .footer{
+        height: 42vh;
+    }
+    .footer--display{
+        display: initial;
+    }
+}
+/* MEDİUM*/
+
+@media screen and (min-width:768px) {
+    /*HEADER*/
+    .header__navbar--list{
+        display: none;
+    }
+    /*1.CONTAİNER*/
+    .container--first{
+        height: 60vh;
+     }
+    /*2.CONTAİNER*/
+
+    /*3.CONTAİNER*/
+   
+    /*4.CONTAİNER*/
+    .container--callme{
+        height: 200vh;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .main__container-element{
+        height: 50vh;
+        width: 40vh;
+    }
+    .main__container-element img{
+        height: 30vh;
+        margin-top: 1rem;
+      }
+    /*FOOTER*/
+    .footer{
+        height: 36vh;
+    }
+    
+}
+/* LARGE*/
+@media screen and (min-width:992px){
+    /*HEADER*/
+    .header__navbar--list{
+        display: none;
+    }
+    /*1.CONTAİNER*/
+
+    /*2.CONTAİNER*/
+
+    /*3.CONTAİNER*/
+    .container--selector-list{
+        grid-template-columns: auto auto;
+    }
+    /*4.CONTAİNER*/
+ 
+    /*FORM*/
+    input[type=text], select{
+        width: 70vh;
+    }
+    /*FOOTER*/
+
+}
+/* X-LARGE*/
+@media screen and (min-width:1200px) {
+    /*NAVBAR*/
+    .navbar{
+        display: none;
+    }
+    /*HEADER*/
+    .header__navbar--list{
+        display: inline;
+    }
+    #header__navbar--btn_list{
+        display: none;
+    }
+    #header__navbar--btn_src{
+        display: inherit;
+    }
+    /*1.CONTAİNER*/
+    
+    /*2.CONTAİNER*/
+    .container--about{
+        flex-direction: row;
+        height: 60vh;
+    }
+    .container--about img{
+        width: 40%;
+        height: 100%;
+       }
+    /*3.CONTAİNER*/
+    .container--selector-list{
+        grid-template-columns: auto auto;
+    }
+    /*4.CONTAİNER*/
+    .container--callme{
+        height: 130vh;
+        grid-template-columns: auto auto auto;
+    }
+    /*FOOTER*/
+    .footer{
+        height: 34vh;
+    }
+    
+}
+@media screen and (min-width:1440px){
+    .container--selector-list{
+        grid-template-columns: auto auto auto;
+    }
+    .container--callme{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+/* MOBİLE LANDSCAPE*/
+@media screen and (max-width:425px) and (min-aspect-ratio:7/4){
+    /*HEADER*/
+    .header__navbar--list{
+        display: none;
+    }
+    /*1.CONTAİNER*/
+
+    /*2.CONTAİNER*/
+    
+    /*3.CONTAİNER*/
+
+    /*FOOTER*/
+
+    
+}
