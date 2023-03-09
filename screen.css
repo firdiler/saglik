@@ -228,7 +228,9 @@
         display: inherit;
     }
     /*1.CONTAİNER*/
-    
+    .container--first{
+        height: 80vh;
+     }
     /*2.CONTAİNER*/
     .container--about{
         flex-direction: row;
@@ -254,6 +256,9 @@
     
 }
 @media screen and (min-width:1440px){
+    .container--first{
+        height: 80vh;
+     }
     .container--selector-list{
         grid-template-columns: auto auto auto;
     }
