@@ -90,6 +90,10 @@
         height: 40vh;
         padding: 0 0;
     }
+    /*CONTACT*/
+    .space-contact{
+        height: 30vh;
+    }
 }
 /*SMALL*/
 
@@ -163,6 +167,10 @@
     /*ABOUT*/
     .container--about{
         grid-template-columns: auto;
+    }
+    /*CONTACT*/
+    .space-contact{
+        height: 15vh;
     }
 }
 /* MEDİUM*/
