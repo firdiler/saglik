@@ -168,4 +168,26 @@ slides.forEach((slide, index) => {
     slider.style.transform = `translateX(${currentTranslate}px)`
   }
 
+  let plus = true
+  var countDownID = setInterval(function () {
 
+    if (currentIndex == 2) {
+      plus=false
+    }
+    if (currentIndex == 0) {
+      plus=true
+    }
+    if(plus==true){
+      currentIndex += 1
+      currentTranslate = currentIndex * -window.innerWidth
+      slider.style.transform = `translateX(${currentTranslate}px)`
+      console.log(currentIndex)
+    }
+    else if(plus==false){
+      currentIndex -= 1
+      currentTranslate = currentIndex * -window.innerWidth
+      slider.style.transform = `translateX(${currentTranslate}px)`
+  
+    }
+
+}, 9000);
